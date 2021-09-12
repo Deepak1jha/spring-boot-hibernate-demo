@@ -18,9 +18,8 @@ public class Student {
     private String name;
     private String city;
 
-    public Student( String name, String city,int id) {
+    public Student( String name, String city) {
         this.name = name;
         this.city = city;
-        this.id=id;
     }
 }
